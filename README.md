@@ -1,34 +1,17 @@
-# Flink 流数据分析工具
+# Flink1.13.0-arm-v1.0
 
-## 目录
+## 规格说明
 
-- [仓库简介](#项目介绍)
-- [前置条件](#前置条件)
-- [镜像说明](#镜像说明)
+- 镜像商品：[Flink-流数据分析工具](https://marketplace.huaweicloud.com/hidden/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856)
+- 镜像规格：Flink1.13.0-arm-v1.0
+- 预置环境：Flink 1.13.0 + JDK 1.8
+- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
+- CPU架构：ARM
+- 操作系统：Huawei Cloud EulerOD 2.0 64bit
+- 资源编排服务（RFS）：ECS
 
-## 项目介绍
-‌[Apache Flink‌](https://github.com/apache/flink) 是一个开源的分布式处理引擎，主要用于对无界和有界数据流进行有状态的计算。它能够在内存中以高速处理数据，并且能够扩展到任意规模。
+## 使用说明
 
-**核心特性：**
-1. ‌批流一体化‌：Flink 支持批处理和流处理，使得开发者可以使用同一套系统处理不同类型的计算任务。批处理适用于有界数据集的处理，而流处理适用于无界数据流的处理‌。
-2. ‌状态管理‌：Flink 提供了丰富的状态管理 API，包括 ValueState、ListState、MapState 等，帮助开发者更容易地管理复杂的状态‌。
-3. ‌事件时间处理‌：Flink 支持基于事件时间的数据处理，能够容忍数据的延迟和乱序，确保数据的准确性‌。
-4. ‌高可用性和容错机制‌：Flink 通过 Checkpoint 机制提供数据一致性保障，确保在故障发生时能够恢复状态，保证计算的正确性‌。
+- 华为云云商店：[Flink 使用指南](./docs/usage.md)
 
-本项目提供的开源镜像商品 [**`Flink-流数据分析工具`**](https://marketplace.huaweicloud.com/hidden/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856)，已预先安装 Flink 软件及其相关运行环境，并提供部署模板。快来参照使用指南，轻松开启“开箱即用”的高效体验吧。
-
-> **系统要求如下：**
-> - CPU: 2GHz 或更高
-> - RAM: 4GB 或更大
-> - Disk: 至少 40GB
-
-## 前置条件
-[注册华为账号并开通华为云](https://support.huaweicloud.com/usermanual-account/account_id_001.html)。
-
-## 镜像说明
-
-| 镜像规格 | 开源软件版本 | 适配项 | CPU架构 | 操作系统 | 推荐配置 | 备注 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Flink1.13.0-arm-v1.0 | 1.13.0 | ECS | ARM | Huawei Cloud EulerOD 2.0 64bit | CPU：2核<br>内存：4G<br>硬盘：40G<br>操作系统： Linux<br>云主机型号：kc1.large.2 |  |
-
-更多问题可通过 [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 华为云云商店指定商品的服务支持 与我们取得联系。
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
