@@ -8,7 +8,7 @@
 - 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
 - CPU架构：ARM
 - 操作系统：Huawei Cloud EulerOD 2.0 64bit
-- 资源编排服务（RFS）：ECS
+- 资源编排服务（RFS）：ECS + EIP + VPC
 
 ## 使用说明
 
