@@ -27,8 +27,8 @@
 
 ## 镜像说明
 
-| 镜像规格 | 开源软件版本 | 适配项 | CPU架构 | 操作系统 | 推荐配置 | 备注 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Flink1.13.0-arm-v1.0 | 1.13.0 | ECS | ARM | Huawei Cloud EulerOD 2.0 64bit | CPU：2核<br>内存：4G<br>硬盘：40G<br>操作系统： Linux<br>云主机型号：kc1.large.2 |  |
+| 镜像规格 | 特性说明 | 备注 |
+| --- | --- | --- |
+| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/Flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | 基于鲲鹏服务器 + Huawei Cloud EulerOD 2.0 64bit 安装部署 |  |
 
 更多问题可通过 [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 华为云云商店指定商品的服务支持 与我们取得联系。
