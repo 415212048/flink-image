@@ -28,14 +28,14 @@ This project offers pre-configured [**Flink Stream Analysis Tool**](https://mark
 > - Disk: At least 40GB  
 
 ## Prerequisites  
-[Register a Huawei account and activate Huawei Cloud](https://support.huaweicloud.com/usermanual-account/account_id_001.html).  
+[Register a Huawei account and activate Huawei Cloud](https://support.huaweicloud.com/usermanual-account/account_id_001.html)
 
 ## Image Specifications  
 
 | Image Version | Description | Notes |  
 |--------------|-------------|-------|  
-| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/Flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |  |  
+| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |  |  
 
-For further assistance:  
-- Submit an [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues)  
-- Contact Huawei Cloud Marketplace product support  
+## Get Help
+- Submit an [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues)
+- Contact Huawei Cloud Marketplace product support
