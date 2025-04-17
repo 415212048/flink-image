@@ -10,6 +10,8 @@
 - [仓库简介](#项目介绍)
 - [前置条件](#前置条件)
 - [镜像说明](#镜像说明)
+- [获取帮助](#获取帮助)
+- [如何贡献](#如何贡献)
 
 ## 项目介绍
 ‌[Apache Flink‌](https://github.com/apache/flink) 是一个开源的分布式处理引擎，主要用于对无界和有界数据流进行有状态的计算。它能够在内存中以高速处理数据，并且能够扩展到任意规模。
@@ -28,12 +30,18 @@
 > - Disk: 至少 40GB
 
 ## 前置条件
-[注册华为账号并开通华为云](https://support.huaweicloud.com/usermanual-account/account_id_001.html)。
+[注册华为账号并开通华为云](https://support.huaweicloud.com/usermanual-account/account_id_001.html)
 
 ## 镜像说明
 
 | 镜像规格 | 特性说明 | 备注 |
 | --- | --- | --- |
-| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/Flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | 基于鲲鹏服务器 + Huawei Cloud EulerOD 2.0 64bit 安装部署 |  |
+| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | 基于鲲鹏服务器 + Huawei Cloud EulerOD 2.0 64bit 安装部署 |  |
 
-更多问题可通过 [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 华为云云商店指定商品的服务支持 与我们取得联系。
+## 获取帮助
+- 更多问题可通过 [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 华为云云商店指定商品的服务支持 与我们取得联系
+- 其他开源镜像可看 [open-source-image-repos](https://github.com/HuaweiCloudDeveloper/open-source-image-repos)
+
+## 如何贡献
+- Fork 此存储库并提交合并请求
+- 基于您的开源镜像信息同步更新 README.md
