@@ -37,7 +37,7 @@ This project offers pre-configured [**Flink Stream Analysis Tool**](https://mark
 | Image Version | Description | Notes |  
 |--------------|-------------|-------|  
 | [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |  | 
-| Flink1.17.0-arm-v2.0 | - |  |  
+| [Flink1.17.0-arm-v2.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.17.0-arm-v2.0?tab=readme-ov-file) | - |  |  
 
 ## Getting Help
 - Submit an [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues)
