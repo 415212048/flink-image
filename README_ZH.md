@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">Flink 流数据分析工具</h1>
   <p align="center">
-    <a href="README_EN.md"><strong>English</strong></a> | <strong>简体中文</strong>
+    <a href="README.md"><strong>English</strong></a> | <strong>简体中文</strong>
   </p>
 </p>
 
