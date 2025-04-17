@@ -9,7 +9,9 @@
 
 - [Repository Introduction](#repository-introduction)  
 - [Prerequisites](#prerequisites)  
-- [Image Specifications](#image-specifications)  
+- [Image Specifications](#image-specifications)
+- [Getting Help](#getting-help)
+- [How to Contribute](#how-to-contribute)
 
 ## Repository Introduction  
 [Apache Flink](https://github.com/apache/flink) is an open-source distributed processing engine primarily designed for stateful computations over unbounded and bounded data streams. It enables high-speed in-memory data processing with elastic scalability.
@@ -36,6 +38,10 @@ This project offers pre-configured [**Flink Stream Analysis Tool**](https://mark
 |--------------|-------------|-------|  
 | [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |  |  
 
-## Get Help
+## Getting Help
 - Submit an [issue](https://github.com/HuaweiCloudDeveloper/Flink-image/issues)
 - Contact Huawei Cloud Marketplace product support
+
+## How to Contribute
+- Fork this repository and submit a merge request.
+- Update README.md synchronously based on your open-source mirror information.
