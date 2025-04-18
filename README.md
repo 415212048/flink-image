@@ -16,15 +16,21 @@
 ## Repository Introduction  
 [Apache Flink](https://github.com/apache/flink) is an open-source distributed processing engine primarily designed for stateful computations over unbounded and bounded data streams. It enables high-speed in-memory data processing with elastic scalability.
 
-**Core Features:**  
+**Core Features:**
 1. **Batch & Stream Processing Unification**: Flink supports both batch and stream processing, allowing developers to handle different computation tasks with a single system. Batch processing works for bounded datasets while stream processing handles unbounded data streams.  
 2. **State Management**: Provides rich state management APIs including ValueState, ListState, and MapState to simplify complex state management.  
 3. **Event Time Processing**: Supports event-time based data processing, tolerating data delays and disorder to ensure accuracy.  
 4. **High Availability & Fault Tolerance**: The checkpoint mechanism ensures data consistency and state recovery during failures.  
 
+**Architecture Design:**
+
+![](./images/img.png)
+
+![](./images/img2.png)
+
 This project offers pre-configured [**Flink Stream Analysis Tool**](https://marketplace.huaweicloud.com/hidden/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856) images with Flink and its runtime environment pre-installed, along with deployment templates. Follow the guide to enjoy an "out-of-the-box" experience.
 
-> **System Requirements:**  
+> **System Requirements:**
 > - CPU: 2GHz or higher  
 > - RAM: 4GB or more  
 > - Disk: At least 40GB  
