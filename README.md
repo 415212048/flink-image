@@ -3,12 +3,12 @@
 ## 规格说明
 
 - 镜像商品：[Flink-流数据分析工具](https://marketplace.huaweicloud.com/hidden/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856)
-- 镜像规格：Flink1.13.0-arm-v1.0
-- 预置环境：Flink 1.13.0 + JDK 1.8
-- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
+- 镜像规格：Flink1.17.0-arm-v2.0
+- 预置环境：Flink 1.17.0 + JDK 1.8
+- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html) + [GaussDB](https://support.huaweicloud.com/gaussdb/index.html)
 - CPU架构：ARM
 - 操作系统：Huawei Cloud EulerOS 2.0 64bit
-- 资源编排服务（RFS）：ECS + EIP + VPC
+- 资源编排服务（RFS）：不涉及
 
 ## 使用说明
 
