@@ -7,7 +7,7 @@
 - 预置环境：Flink 1.13.0 + JDK 1.8
 - 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
 - CPU架构：ARM
-- 操作系统：Huawei Cloud EulerOD 2.0 64bit
+- 操作系统：Huawei Cloud EulerOS 2.0 64bit
 - 资源编排服务（RFS）：ECS + EIP + VPC
 
 ## 使用说明
