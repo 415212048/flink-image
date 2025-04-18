@@ -199,4 +199,4 @@ d. 插入成功:
 ## 参考文档
 - [Flink 官网](https://flink.apache.org/)
 
-更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/flink-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
