@@ -22,7 +22,7 @@ Apache Flink 是一个开源的分布式流处理框架，专为大规模数据�
 
 1. 选择 **模板配置开通**，点击 **下一步**。
 
-![](images/img14.png)
+![](images/img13.png)
 
 ![](images/img.png)
 
@@ -126,77 +126,3 @@ cd /opt/flink-1.13.0
 在 `log` 目录下找到输出文件，查看结果：
 
 ![](images/img12.png)
-
-### 采用 Flink-connector-jdbc 的方式写入 GaussDB
-1. 环境准备。
-
-a. GaussDB 数据库实例购买以及库表创建：
-```shell
-# 以下为测试代码示例
-
-# 创建db：test_db
-create database test_db;
-
-# 创建schema：player
-create schema player;
-
-# 创建表：players3
-CREATE TABLE players3 (
-player_id INT,
-team_id INT,
-player_name VARCHAR,
-height VARCHAR,
-update_time timestamp,
-PRIMARY KEY (player_id) NOT ENFORCED
-);
-```
-
-b.启动 Flink 服务（本镜像采用的是 Flink 1.17版本）：
-```shell
-cd /opt/module/flink-1.17.0/bin/
-./start-cluster.sh
-```
-
-2. 将数据写入 GaussDB。
-
-a. 切换目录：
-```shell
-cd /opt/module/flink-1.17.0/bin/
-```
-
-b. 启动 `flink-sql` 服务：
-```shell
-./sql-client.sh embedded
-```
-
-c. 写入 GaussDB 测试：
-```shell
-# 以下为测试代码示例
-
-CREATE TABLE players3 (
-player_id INT,
-team_id INT,
-player_name VARCHAR,
-height VARCHAR,
-update_time timestamp,
-PRIMARY KEY (player_id) NOT ENFORCED
-) WITH (
-'connector' = 'jdbc',
-'url' = 'jdbc:gaussdb://1.1.1.1:8000/db?currentSchema=schema',
-'username' = 'user',
-'password' = '123456',
-'table-name' = 'players3');
-
-insert into players3 (player_id,team_id,player_name) values (6001,6001,'6001'),(6002,6002,'');
-
-select * from players3;
-```
-
-d. 插入成功:
-
-![](images/img13.png)
-
-## 参考文档
-- [Flink 官网](https://flink.apache.org/)
-
-更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/flink-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
