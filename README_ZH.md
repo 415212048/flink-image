@@ -36,7 +36,7 @@
 
 | 镜像规格 | 特性说明 | 备注 |
 | --- | --- | --- |
-| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | 基于鲲鹏服务器 + Huawei Cloud EulerOS 2.0 64bit 安装部署 |  |
+| [Flink1.13.0-arm-v1.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.13.0-arm-v1.0?tab=readme-ov-file) | 基于 鲲鹏服务器 + Huawei Cloud EulerOS 2.0 64bit 安装部署 |  |
 | [Flink1.17.0-arm-v2.0](https://github.com/HuaweiCloudDeveloper/flink-image/tree/Flink1.17.0-arm-v2.0?tab=readme-ov-file) | - |  |
 
 ## 获取帮助
