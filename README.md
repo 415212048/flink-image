@@ -1,9 +1,9 @@
-# Flink1.13.0-arm-v1.0
+# Flink-1.13.0-kunpeng
 
 ## 规格说明
 
 - 镜像商品：[Flink-流数据分析工具](https://marketplace.huaweicloud.com/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856)
-- 镜像规格：Flink1.13.0-arm-v1.0
+- 镜像规格：Flink-1.13.0-kunpeng-HCE
 - 预置环境：Flink 1.13.0 + JDK 1.8
 - 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
 - CPU架构：ARM
